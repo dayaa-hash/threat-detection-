@@ -42,7 +42,7 @@ from app.features.newsfeed.schemas import newsfeed_schemas
 
 from app.core.settings.general.models.general_settings_models import Settings
 from app.core.settings.modules.models.modules_settings_models import ModuleSettings
-
+os.makedirs('data', exist_ok=True)
 
 logging.basicConfig(
     level=logging.INFO,

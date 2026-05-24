@@ -102,6 +102,7 @@ function App() {
   
     fetchData();
   }, [setApiKeys, setGeneralSettings, setModules, setNewsfeedList]);
+  
 
   return (
     <ColorModeContext.Provider value={colorMode}>
